@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b1sag5ncge70h"]
+
+[ext_resource type="Script" uid="uid://d2mrg8p8ts6e1" path="res://resources/item.gd" id="1_rqcl7"]
+[ext_resource type="Texture2D" uid="uid://dcoqfgpl5ujwr" path="res://assets/s1.png" id="2_bwbjf"]
+
+[resource]
+script = ExtResource("1_rqcl7")
+id = "s1"
+display_name = "s1"
+shape = Array[Vector2i]([Vector2i(0, 0)])
+sprite = ExtResource("2_bwbjf")
+metadata/_custom_type_script = "uid://d2mrg8p8ts6e1"

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://b4m5ok518als8"]
+
+[ext_resource type="Script" uid="uid://5te1eyln68kp" path="res://scenes/buttons/icon_button.gd" id="1_8eo05"]
+
+[node name="IconButton" type="Button" unique_id=288305440]
+custom_minimum_size = Vector2(100, 100)
+offset_right = 104.0
+offset_bottom = 65.0
+script = ExtResource("1_8eo05")
+
+[node name="Icon" type="TextureRect" parent="." unique_id=1941151322]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+stretch_mode = 2
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

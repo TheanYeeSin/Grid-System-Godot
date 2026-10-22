@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://r7sdkmrfa017"]
+
+[ext_resource type="Script" uid="uid://cph53fsra20gs" path="res://scenes/grid/grid.gd" id="1_x0e5n"]
+
+[node name="Grid" type="Control" unique_id=2100594467]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_x0e5n")
+
+[node name="ItemsLayer" type="Control" parent="." unique_id=502895293]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1881876590]
+layout_mode = 0
+offset_right = 224.0
+offset_bottom = 160.0
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0

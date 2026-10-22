@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dqs4eb6sge64d"]
+
+[ext_resource type="Script" uid="uid://copc3q5mm2nmt" path="res://scenes/grid/placed_item.gd" id="1_eq8kq"]
+
+[node name="PlacedItem" type="Control" unique_id=488578537]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_eq8kq")
+
+[node name="Icon" type="TextureRect" parent="." unique_id=1797615423]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+stretch_mode = 2

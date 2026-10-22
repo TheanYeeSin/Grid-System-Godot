@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bfv0wipre5jwq"]
+
+[ext_resource type="Texture2D" uid="uid://ccgqbgafq0ovg" path="res://assets/grid.png" id="1_jieog"]
+[ext_resource type="Script" uid="uid://oq7yq3eqbew2" path="res://scenes/grid/grid_slot.gd" id="2_5lvhb"]
+
+[node name="GridSlot" type="TextureRect" unique_id=323643526]
+texture_filter = 1
+texture = ExtResource("1_jieog")
+stretch_mode = 2
+mouse_filter = 2
+script = ExtResource("2_5lvhb")
+
+[node name="StatusFilter" type="ColorRect" parent="." unique_id=697927372]
+layout_mode = 0
+offset_right = 32.0
+offset_bottom = 32.0
+mouse_filter = 2
+color = Color(1, 1, 1, 0)
